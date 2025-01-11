@@ -9,9 +9,7 @@ int main(){
     cnt++;
   }
   int k = a - pow(2, cnt-1);
-  if (k == 0)
-    printf("%d", a);
-  else
-    printf("%d", k*2);
+  if (k == 0) printf("%d", a);
+  else  printf("%d", k*2);
   return 0;
 }
